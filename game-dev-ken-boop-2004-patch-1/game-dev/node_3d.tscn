@@ -1,0 +1,46 @@
+[gd_scene load_steps=8 format=3 uid="uid://bjrvh1mc3bmqy"]
+
+[ext_resource type="Script" uid="uid://oktwterhv4ko" path="res://label_3d.gd" id="1_a202f"]
+[ext_resource type="Script" uid="uid://dq01j8num0aqf" path="res://mesh_instance_3d.gd" id="2_noarx"]
+[ext_resource type="Script" uid="uid://b52bwdb63qbtm" path="res://mesh_instance_3d_3.gd" id="3_a0tk4"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_a0tk4"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_r3fl7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jka67"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_a0tk4"]
+size = Vector3(2, -0.05, 2)
+
+[node name="MAIN" type="Node3D"]
+
+[node name="Label3D" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0031015277)
+billboard = 1
+modulate = Color(0.23529412, 0.78431374, 0.69411767, 1)
+text = "HELLO WORLD"
+font_size = 64
+script = ExtResource("1_a202f")
+
+[node name="Camera3D" type="Camera3D" parent="Label3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.066, 0, 3)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Label3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Label3D"]
+transform = Transform3D(0.06308603, 0.009864345, -0.4959061, -0.07724312, 0.49399754, 2.9984246e-09, 0.4899527, 0.076610655, 0.06385256, 0.65675414, -1.0456725, 1.6536725)
+mesh = SubResource("SphereMesh_a0tk4")
+script = ExtResource("2_noarx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Label3D/MeshInstance3D"]
+transform = Transform3D(0.19519153, -0.00075190514, -0.043586202, -0.0007518865, 0.19988272, -0.00681528, 0.043586016, 0.0068152472, 0.19507405, 0.5, 0, 0)
+mesh = SubResource("SphereMesh_r3fl7")
+surface_material_override/0 = SubResource("StandardMaterial3D_jka67")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Label3D"]
+transform = Transform3D(0.99858904, 0, 0.053102832, 0, 1, 0, -0.053102832, 0, 0.99858904, 0, -0.2, 0)
+layers = 2
+mesh = SubResource("BoxMesh_a0tk4")
+script = ExtResource("3_a0tk4")
