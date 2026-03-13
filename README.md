@@ -31,6 +31,14 @@
 ----ENEMY ENTITY IN LEVEL2 MAP----
 <img width="1877" height="1080" alt="{1BE477BC-17C3-4B88-A929-A2653BBE85FA}" src="https://github.com/user-attachments/assets/80c9831b-517b-4c38-a485-df36e5958193" />
 
+---Deployed 2D godot game using USB DEBUGGING for Mobile Phone---
+
+
+![1000010385](https://github.com/user-attachments/assets/b1f86762-ab3c-4e69-b1c3-06ad8ed912ce)
+
+
+![1000010386](https://github.com/user-attachments/assets/eec4b1e2-c943-477d-bc66-8c490b445be7)
+
 
 
 # Game Dev Subj
