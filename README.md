@@ -60,7 +60,7 @@ Run through a looping castle environment, fight enemies, and survive as long as 
 | Jump | W |
 | Sprint | Left Shift |
 | Dash / Double Jump | Space |
-| Attack | J |
+| Attack | left-click mouse |
 
 All keybinds are remappable in-game.
 
