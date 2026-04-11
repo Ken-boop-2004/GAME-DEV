@@ -1,0 +1,38 @@
+# Godot build artifacts
+.godot/
+.import/
+export_presets.cfg
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Media files (large)
+*.mp3
+*.mp4
+*.ogv
+*.wav
+
+# Images (keep small ones, ignore large assets)
+*.png
+*.jpg
+*.jpeg
+
+# Documentation
+README.md
+CHANGELOG.md
+LICENSE
+
+# Test suite
+test_suite/
+
+# Other projects
+NEW-GAMEDEV-2D-main/

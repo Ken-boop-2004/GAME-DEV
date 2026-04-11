@@ -1,0 +1,9 @@
+VBoxContainer
+LineEdit
+HBoxContainer
+Button
+Label
+Node
+Sprite2D
+ParallaxLayer
+ParallaxBackground

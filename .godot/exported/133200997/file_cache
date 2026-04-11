@@ -1,0 +1,13 @@
+res://enemy.tscn::153a86e031c8ca0906339d6c0e226867::1773407566::res://.godot/exported/133200997/export-ec12bd2205a8e44213188668d747d7fa-enemy.scn
+res://game_level_2.tscn::c567e8ce188f397175659c1ab1310221::1773462574::res://.godot/exported/133200997/export-5490ddfabe47135d0a94bbd4e4a479ee-game_level_2.scn
+res://level.tscn::343d10b3108a9756516b51e8f16c1e68::1773472764::res://.godot/exported/133200997/export-d85448a68f01bbd6644b4b40ef87233e-level.scn
+res://main_menu.tscn::67d06f6c8b1b477ad1039fb8c551dccb::1773471325::res://.godot/exported/133200997/export-8b03550a1e82db90fe95208a9e9dbb82-main_menu.scn
+res://pause_menu.tscn::edbbf9bf03b1a9675423133167580543::1773407566::res://.godot/exported/133200997/export-8f8844d4375fca029c0f20cf6f905ea1-pause_menu.scn
+res://platform_tiles.tres::6b8fe8a8cf3fe326d575e839f4275be5::1773407566::res://.godot/exported/133200997/export-6fb19ad44cb03bafdb8405f667d229f6-platform_tiles.res
+res://player.tscn::14fa3989e8cbd19615b436942d5a21e1::1773469595::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://portal.tscn::4aa5e99c6e3e40382c4657767466791e::1773407566::res://.godot/exported/133200997/export-740f5dc165143dd4cad93dfc5dc8c947-portal.scn
+res://settings.tscn::0b5133588d34f3be1dd63bda534ca70c::1773407566::res://.godot/exported/133200997/export-5e6299b8d8c40760f2987e3552e86b12-settings.scn
+res://spike.tscn::47581d323bcfa348dceba4ccd9e8f5e9::1773407566::res://.godot/exported/133200997/export-65a124e7c268d791d04f413a6d11990a-spike.scn
+res://Lobby.tscn::aeb40b7669ff2d5e59686a4edfaec91c::1773471808::res://.godot/exported/133200997/export-c369462c7f5947728e05f24a21b69647-Lobby.scn
+res://Login.tscn::bfbfd70cc42bdc8ac9dd9d0a43c3a4f8::1773474772::res://.godot/exported/133200997/export-79cfdab58b795e8363d081efbac867aa-Login.scn
+res://RemotePlayer.tscn::45936e39b65c8c38070c786b67730a38::1773472778::res://.godot/exported/133200997/export-df47afa8c1ced23ad2d45fd642bf3059-RemotePlayer.scn
